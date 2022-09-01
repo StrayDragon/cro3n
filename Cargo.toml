@@ -1,11 +1,11 @@
 [package]
-name = "pycron"
-version = "0.1.0"
+name = "cro3n"
+version = "0.0.1"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
-name = "pycron"
+name = "cro3n"
 crate-type = ["cdylib"]
 
 [dependencies]

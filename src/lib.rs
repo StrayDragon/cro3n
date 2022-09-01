@@ -14,7 +14,7 @@ fn check_cron_expression(expression: String) -> PyResult<String> {
 
 /// A Python module implemented in Rust.
 #[pymodule]
-fn pycron(_py: Python, m: &PyModule) -> PyResult<()> {
+fn cro3n(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(check_cron_expression, m)?)?;
     Ok(())
 }
