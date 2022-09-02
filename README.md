@@ -24,15 +24,11 @@ pip install -U cro3n
 ```
 
 ## Example
+see [example/python](./example/python)
 
-### validate cron expression
-```python
-import cro3n
-
-cron_expr = "" # write your expression
-print(cro3n.check_cron_expression(cron_expr)) # empty str is ok, otherwise means errors
-```
-
-## Relation Projects
+## Related Projects
 
 - [zslayton/cron](https://github.com/zslayton/cron)
+
+## LICENSE
+[MIT](./LICENSE)
