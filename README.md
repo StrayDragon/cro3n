@@ -12,7 +12,7 @@
 [![PyPI](https://img.shields.io/pypi/v/cro3n)](https://pypi.org/project/cro3n)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cro3n)](https://pypi.org/project/cro3n)
 [![PyPI - Implementation](https://img.shields.io/pypi/implementation/cro3n)](https://pypi.org/project/cro3n)
-[![PyPI - License](https://img.shields.io/pypi/l/cro3n)](https://github.com/StrayDragon/cro3n/blob/main/LICENSE)
+[![GitHub](https://img.shields.io/github/license/straydragon/cro3n)](https://github.com/StrayDragon/cro3n/blob/main/LICENSE)
 
 ---
 
@@ -29,6 +29,8 @@ see [example/python](./example/python)
 ## Related Projects
 
 - [zslayton/cron](https://github.com/zslayton/cron)
+- [PyO3/maturin](https://github.com/PyO3/maturin)
+- [PyO3/pyo3](https://github.com/PyO3/pyo3)
 
 ## LICENSE
 [MIT](./LICENSE)
