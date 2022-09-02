@@ -1,15 +1,37 @@
-[build-system]
-requires = ["maturin>=0.13,<0.14"]
-build-backend = "maturin"
-
 [project]
+# https://packaging.python.org/en/latest/tutorials/packaging-projects/#configuring-metadata
 name = "cro3n"
+version = "0.0.2"
 requires-python = ">=3.7"
 classifiers = [
-    "Programming Language :: Rust",
+    "Development Status :: 1 - Planning",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
+    "Programming Language :: Rust",
+    "License :: OSI Approved :: MIT License",
 ]
+authors = [
+  { name="straydragon", email="straydragonv@gmail.com" },
+]
+description = "Another one **cron expression** utils package for python"
+readme = "README.md"
+license = { file="LICENSE" }
+
+[project.urls]
+"Homepage" = "https://github.com/straydragon/cro3n"
+"Bug Tracker" = "https://github.com/straydragon/cro3n/issues"
+
+[build-system]
+# https://maturin.rs/distribution.html
+# https://packaging.python.org/en/latest/tutorials/packaging-projects/#creating-pyproject-toml
+requires = ["maturin>=0.13,<0.14"]
+build-backend = "maturin"
 
 [tool.maturin]
 sdist-include = [
