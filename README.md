@@ -7,7 +7,7 @@
  ╚═════╝ ╚═╝  ╚═╝  ╚═════╝  ╚═╝  ╚═══╝
 ```
 
-[![CI](https://github.com/StrayDragon/cro3n/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/StrayDragon/cro3n/actions/workflows/CI.yml)
+[![Release](https://github.com/StrayDragon/cro3n/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/StrayDragon/cro3n/actions/workflows/release.yml)
 [![GitHub last commit](https://img.shields.io/github/last-commit/straydragon/cro3n)](https://github.com/StrayDragon/cro3n/commits)
 [![PyPI](https://img.shields.io/pypi/v/cro3n)](https://pypi.org/project/cro3n)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cro3n)](https://pypi.org/project/cro3n)
