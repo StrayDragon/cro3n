@@ -1,7 +1,7 @@
 [project]
 # https://packaging.python.org/en/latest/tutorials/packaging-projects/#configuring-metadata
 name = "cro3n"
-version = "0.0.2"
+version = "0.0.3"
 requires-python = ">=3.7"
 classifiers = [
     "Development Status :: 1 - Planning",
