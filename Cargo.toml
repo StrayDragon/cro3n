@@ -1,6 +1,6 @@
 [package]
 name = "cro3n"
-version = "0.0.3"
+version = "0.0.4"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -9,6 +9,6 @@ name = "cro3n"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = { version = "0.19.0", features = ["extension-module"] }
+pyo3 = { version = "0.20.0", features = ["extension-module"] }
 chrono = "0.4.22"
-cron = "0.11.0"
+cron = "0.12.0"
