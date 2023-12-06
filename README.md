@@ -26,6 +26,13 @@ pip install -U cro3n
 ## Example
 see [example/python](./example/python)
 
+## Dev
+you need config:
+- rust
+- python 3.7+
+- pyo3 tools
+more details see https://pyo3.rs/v0.20.0/
+
 ## Related Projects
 
 - [zslayton/cron](https://github.com/zslayton/cron)
